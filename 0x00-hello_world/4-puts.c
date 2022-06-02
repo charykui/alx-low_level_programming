@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- *  main -begining of compilations 
- *  returns zero 
+ * main -begining of compilations 
+ * Return - zero 
  */
 int main(void)
 {
