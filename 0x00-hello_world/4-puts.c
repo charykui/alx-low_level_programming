@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/* main prints some words and returns zero */
+/*
+ *  main - prints some words and 
+ *  returns zero 
+ *
+ */
 
 int main(void)
 {
