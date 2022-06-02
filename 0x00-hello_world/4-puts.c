@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* main prints some words and returns zero */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
