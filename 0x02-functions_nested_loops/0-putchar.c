@@ -1,7 +1,6 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
-* main - Prints the word "-putchar"
+* main - Prints the word -putchar
 * Return: Always 0 (Success)
 */
 int main(void)
