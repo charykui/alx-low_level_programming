@@ -4,7 +4,6 @@
  * swap_int -a funcction that swaps
  * @a: integer pointer
  * @b: integer pointer
- * @n: temp
  */
 void swap_int(int *a, int *b)
 {
