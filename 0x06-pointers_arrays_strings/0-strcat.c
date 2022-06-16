@@ -3,25 +3,24 @@
 /**
 * _strcat - a function that concatinates two strings
 * @src: string one
-* @dest: string two
+* @dest: string twio
 * Return: returns concatenated strings
 */
 char *_strcat(char *dest, char *src)
 {
-	char *dest, *src;
+	int i,j;
 
-	length = 0;
+	i = 0;
 
-	while (s1[length] != '\0')
+	while(dest[i] != '\0')
 	{
-		++length;
+		++i;
 	}
-	for (j = 0; s2[j] != '\0'; ++j, ++length)
+	for (j = 0; src[j] != '\0'; ++j, ++i)
 	{
-		s1[length] = s2[j];
+		dest[i] = src[j];
 	}
 
-	s1[length] = '\0';
-	puts(s1);
-	return (s1);
+	dest[j] = '\0';
+	return (dest);
 }
